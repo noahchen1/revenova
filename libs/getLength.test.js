@@ -5,9 +5,9 @@ const testGetLength = () => {
   const grid1 = [];
   const length1 = getLength(grid1);
   if (length1 === 0) {
-    console.log("case 1 passed.");
+    console.log("Case1 passed!");
   } else {
-    console.log("case 1 failed.");
+    console.log("Case1 failed!");
   }
 
   // Test case 2: Grid with all zeros should return 0
@@ -20,9 +20,9 @@ const testGetLength = () => {
   const length2 = getLength(grid2);
 
   if (length2 === 0) {
-    console.log("case 2 passed.");
+    console.log("Case2 passed!");
   } else {
-    console.log("case 2 failed.");
+    console.log("Case2 failed!");
   }
 
   // Test case 3: Grid with no row containing all zeros and a row containing 1
@@ -33,9 +33,9 @@ const testGetLength = () => {
   ];
   const length3 = getLength(grid3);
   if (length3 === 0) {
-    console.log("case 3 passed.");
+    console.log("Case3 passed!");
   } else {
-    console.log("case 3 failed.");
+    console.log("Case3 failed!");
   }
 
   // Test case 5: Grid with no row containing 1
@@ -48,9 +48,9 @@ const testGetLength = () => {
   const length5 = getLength(grid5);
 
   if (length5 === 3) {
-    console.log("case 5 passed.");
+    console.log("Case5 passed!");
   } else {
-    console.log("case 5 failed.");
+    console.log("Case5 failed!");
   }
 };
 

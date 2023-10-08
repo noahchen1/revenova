@@ -8,5 +8,4 @@ const isOccupied = (x, y, cargoWidth, cargoHeight, grid, cargo) => {
   return false;
 };
 
-
 module.exports = isOccupied;

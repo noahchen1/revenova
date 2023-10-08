@@ -10,7 +10,7 @@ const testGetGrid = () => {
   if (grid1.length === height) {
     console.log("Case1 passed!");
   } else {
-    console.log("Failed!");
+    console.log("Case1 failed!");
   }
 
   // Test case 2: check grid width and values
@@ -28,7 +28,7 @@ const testGetGrid = () => {
     }
   }
 
-  console.log("Case2 passed!")
+  console.log("Case2 passed!");
 };
 
 testGetGrid();
