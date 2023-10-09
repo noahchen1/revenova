@@ -1,7 +1,6 @@
 const getGrid = require("./getGrid");
 
 const testGetGrid = () => {
-  // Test case 1: Check if the grid has the correct dimensions and contains zeros
   const width = 30;
   const height = 25;
   const grid1 = getGrid(width, height);

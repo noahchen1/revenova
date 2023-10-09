@@ -21,14 +21,14 @@ const testGetInputArr = () => {
     console.log("Case2 failed!");
   }
 
-  // Test case 4: Valid input with spaces
+  // Test case 3: Valid input with spaces
   if (isEqual("1O, 2I, 3S", ["1O", "2I", "3S"])) {
     console.log("Case3 passed!");
   } else {
     console.log("Case3 failed!");
   }
 
-  // Test case 5: inccorect format
+  // Test case 4: inccorect format
   if (isEqual("1O,2I,3S,.,4T,,", ["1O", "2I", "3S", "4T"])) {
     console.log("Case4 passed!");
   } else {
